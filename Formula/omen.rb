@@ -1,26 +1,26 @@
 class Omen < Formula
   desc "Multi-language code analysis CLI"
   homepage "https://github.com/panbanda/omen"
-  version "1.0.8"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/panbanda/omen/releases/download/v1.0.8/omen_1.0.8_darwin_arm64.tar.gz"
-      sha256 "ec729f3b74de5be00505673388bd94bded3959f803c119ebed48e76c32d04e3f"
+      url "https://github.com/panbanda/omen/releases/download/v1.1.0/omen_1.1.0_darwin_arm64.tar.gz"
+      sha256 "7f958278a81a70130dad116fa9a2fc1430720eae23745ed7ec87834f85332c33"
     else
-      url "https://github.com/panbanda/omen/releases/download/v1.0.8/omen_1.0.8_darwin_amd64.tar.gz"
-      sha256 "8c57b93927d48aa6e96c4116d0afff5680078825980b6211ef0a1a0a97f456bf"
+      url "https://github.com/panbanda/omen/releases/download/v1.1.0/omen_1.1.0_darwin_amd64.tar.gz"
+      sha256 "cb9997b070f79a946979acb9a122450b9c5e6aad9b86b38989e55be28803fe97"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/panbanda/omen/releases/download/v1.0.8/omen_1.0.8_linux_arm64.tar.gz"
-      sha256 "c4bd1cbc4bacf83925076dfd80c337357e85f1c1b5c977dd8afaecbbf6e4864a"
+      url "https://github.com/panbanda/omen/releases/download/v1.1.0/omen_1.1.0_linux_arm64.tar.gz"
+      sha256 "788c0f716ad3b8dbea6797fbf1adf41e530f29032cebd82d6e20bc2db77cd5db"
     else
-      url "https://github.com/panbanda/omen/releases/download/v1.0.8/omen_1.0.8_linux_amd64.tar.gz"
-      sha256 "1f21d5efea481d5ad79b7a806114ec1b519ff9e851b1c8122b394be6c1bdc32e"
+      url "https://github.com/panbanda/omen/releases/download/v1.1.0/omen_1.1.0_linux_amd64.tar.gz"
+      sha256 "5c7fbdd4f9b875813eb5345e0b813e92f06a53fc165aaad59aec50352d304ee9"
     end
   end
 
